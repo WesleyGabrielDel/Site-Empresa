@@ -1,0 +1,194 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/Background-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main-header {
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+}
+
+#banner-container {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 90px;
+    margin-right: 100px;
+}
+#video-image {
+    height: 350px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+#btn-products {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(144, 254, 105);
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-weight: bolder;
+}
+
+#products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    width: 99vw;
+    background-color: black;
+}
+
+#especializations {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 600px;
+}
+
+.products-info {
+    margin-left: 15px;
+    gap: 10px;
+    border: 2px solid rgb(74, 34, 113);
+    background-color: rgba(0, 0, 0, 0.418);
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+
+}
+
+.heading-product {
+    color: rgb(173, 101, 229);
+    margin-bottom: 30px;
+}
+
+.p-product{
+    margin-left: 35px;
+    margin-bottom: 60px;
+}
+
+.a-product {
+    color: rgb(162, 255, 164);
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+#site-footer {
+    display: flex;
+    flex-direction: row;
+    width: 99vw;
+    height: 300px;
+    background-color: black;  
+    margin-top: 400px;
+}
+
+#site-header {
+    display: flex;
+    flex-direction: row;
+    width: 99vw;
+    height: 60px;
+    background-color: black;  
+}
+
+
+.p-header {
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#p-logo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 25px;
+}
+
+#btn-site {
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    margin-left: 960px;
+}
+
+#banner-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#h1-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+#heading-info {
+    color: rgb(147, 254, 152);
+}
+
+#greatest-heading {
+    font-size: 50px;
+    margin-bottom: 1px;
+}
+
+#banner-description {
+    margin-bottom: 50px;
+    color: rgb(221, 221, 221);
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#btn-products {
+    cursor: pointer;
+}
+
+.footer-link-container {
+    width: 99vw;
+    height: 300px;
+    margin-left: 30px;
+}
+
+.footer-h1 {
+    border-bottom: 1px solid white;
+    color: rgb(202, 202, 202);
+    margin-bottom: 25px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    width: 400px;
+}
+
+.footer-link {
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.p-header:hover {
+    border-bottom: 1px solid white;
+}
+
+.content {
+    flex: 1;
+}
