@@ -1,0 +1,256 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #0a0a0a, #0d2b0d, #0e420e, #102210, #0a0a0a);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+i {
+    color: white;
+    font-size: 30px;
+}
+
+#main-header {
+    width: 120%;
+    height: 50px;
+    background-color: black;
+}
+
+#banner-container {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 90px;
+    margin-right: 100px;
+}
+#video-image {
+    height: 350px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+#btn-products {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(144, 254, 105);
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-weight: bolder;
+}
+
+#products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    width: 99vw;
+    background-color: black;
+}
+
+#especializations {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 600px;
+}
+
+.products-info {
+    margin-left: 15px;
+    gap: 10px;
+    border: 2px solid rgb(74, 34, 113);
+    background-color: rgba(0, 0, 0, 0.418);
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+
+}
+
+.heading-product {
+    color: rgb(173, 101, 229);
+    margin-bottom: 30px;
+}
+
+.p-product{
+    margin-left: 35px;
+    margin-bottom: 60px;
+}
+
+.a-product {
+    color: rgb(162, 255, 164);
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+#site-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    height: 250px;
+    background-color: black;  
+    margin-top: 300px;
+}
+
+#site-header {
+    display: flex;
+    flex-direction: row;
+    width: 99vw;
+    height: 60px;
+    background-color: black;  
+}
+
+
+.p-header {
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#p-logo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 25px;
+}
+
+#btn-site {
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    width: 100%;
+    margin-left: 940px;
+}
+
+#banner-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#h1-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+#heading-info {
+    color: rgb(147, 254, 152);
+}
+
+#greatest-heading {
+    font-size: 50px;
+    margin-bottom: 1px;
+}
+
+#banner-description {
+    margin-bottom: 50px;
+    color: rgb(221, 221, 221);
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#btn-products {
+    cursor: pointer;
+}
+
+.p-header:hover {
+    border-bottom: 1px solid white;
+}
+
+.content {
+    flex: 1;
+}
+
+#heading-about {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: rgb(147, 254, 152);
+}
+
+#about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    margin-top: 40px;
+    width: 99vw;
+    background-color: black;
+}
+
+#first-information-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text-about {
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    gap: 10px;
+    border: 2px solid rgb(74, 34, 113);
+    background-color: rgba(0, 0, 0, 0.418);
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+
+}
+
+.heading-description {
+    color: rgb(173, 101, 229);
+    font-weight: bold;
+}
+
+.info-about {
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+
+#fg {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#social-media {
+    display: flex;
+    flex-direction: row;
+}
+
+.bi {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.profile {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
