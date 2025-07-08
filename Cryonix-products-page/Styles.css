@@ -11,6 +11,10 @@ body {
     background-repeat: no-repeat;
 }
 
+.logo {
+    color: blue;
+}
+
 i {
     color: white;
     font-size: 30px;
@@ -26,7 +30,7 @@ i {
 
 #p-logo{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 25px;
+    margin-left: 20px;
     color: white;
 }
 
@@ -34,7 +38,7 @@ i {
     display: flex;
     flex-direction: row;
     height: 20px;
-    margin-left: 940px;
+    margin-left: 900px;
 }
 
 .p-header {
